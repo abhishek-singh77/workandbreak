@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Besley&family=Roboto:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+button {
+    background-color: transparent;
+    padding: 10px;
+    margin: 15px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 50px;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.clock-container button {
+    margin: 10px;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background: #1D2B64;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F8CDDA, #1D2B64); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
 }
 
-.App-link {
-  color: #61dafb;
+.body {
+    color: white;
+}
+.h1 {
+    font-family: Roboto, sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.timer-container {
+    margin: -50px 20px 20px;
+}
+
+.timer-container h2 {
+    margin: 0;
+}
+
+.actions-wrapper span {
+    font-size: 40px;
+    margin: 15px;
+    width: 50px;
+}
+
+.clock-container {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px ;
+    display: inline-block;
+    margin-top: 30px;
+    width: 350px;
+}
+
+.clock-container span {
+    font-size: 60px;
+}
+
+.clock-container h1 {
+    margin: 0;
 }
