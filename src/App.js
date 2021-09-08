@@ -196,7 +196,8 @@ class App extends React.Component {
         return (
             <header className="App-header">
                 <div className="body">   
-                <h1>Work And Break</h1> <br/>     
+                <h1 id='break-label'>Work And Break</h1> 
+                <h4 id='session-label'>Enter Break and Working Session </h4>    <br />
                     <div className="flex">
                     <SetTimer {...breakProps} />
                     <SetTimer {...sessionProps} />
