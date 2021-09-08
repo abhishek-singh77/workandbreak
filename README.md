@@ -1,3 +1,9 @@
+You can visit this Work And break app here. https://abhishek-singh77.github.io/workandbreak/   <br>
+It's an application which you can use to divide work time and provide yourself with period breaks <br>
+It also has an alarm beep which notifies you when the session is over. <br>
+Created with the help of create-react-app and css. Following the FCC guidelines for the project as well. And took help from various codepen repositories.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
